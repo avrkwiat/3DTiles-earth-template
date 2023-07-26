@@ -1,0 +1,26 @@
+{
+   "asset": {
+       "version": "1.0"
+   },
+   "geometricError": 1.6666666666666667,
+   "root": {
+       "refine": "REPLACE",
+       "geometricError": 1.6666666666666667,
+       "content":{"uri":"L3X3Y2.glb"},
+       "boundingVolume":
+       {
+           "region": [
+               -0.7853981633974483,
+               0.0,
+               0.0,
+               0.7853981633974483,
+               0,
+               250000.0
+           ]
+       },
+       "children": [
+       ],
+        "extensionsUsed":["3DTILES_content_gltf"],
+        "extensionsRequired":["3DTILES_content_gltf"]
+   }
+}

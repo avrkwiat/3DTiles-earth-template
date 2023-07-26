@@ -1,0 +1,42 @@
+{
+   "asset": {
+       "version": "1.0"
+   },
+   "geometricError": 2.5,
+   "root": {
+       "refine": "REPLACE",
+       "geometricError": 2.5,
+       "content":{"uri":"L2X2Y1.glb"},
+       "boundingVolume":
+       {
+           "region": [
+               0.0,
+               0.0,
+               1.5707963267948966,
+               1.5707963267948966,
+               0,
+               500000.0
+           ]
+       },
+       "children": [
+           {
+               "boundingVolume":
+               {
+                   "region": [
+                       0.0,
+                       0.7853981633974483,
+                       0.7853981633974483,
+                       1.5707963267948966,
+                       0,
+                       250000.0
+                   ]
+               },
+               "refine": "REPLACE",
+               "geometricError": 0.625,
+               "content":{"uri":"../3/L3X4Y3.json"}
+           }
+       ],
+        "extensionsUsed":["3DTILES_content_gltf"],
+        "extensionsRequired":["3DTILES_content_gltf"]
+   }
+}
