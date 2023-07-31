@@ -34,45 +34,7 @@
                  "refine": "REPLACE",
                  "content":{"uri":"L3X4Y3.glb"},
                     "children": [
-                           {
-                             "boundingVolume":
-                                 {
-                                     "region": [
-                                         -0.07853981633974483,
-                                         0.7068583470577035,
-                                         0.5105088062083414,
-                                         1.2173671532660448,
-                                         0,
-                                         5600000.0
-                                     ]
-                                   },
-                             "refine": "REPLACE",
-                             "geometricError": 0.3125,
-                             "content":{"uri":"../4/L4X8Y6.glb"},
-                             "children": [
 
-                             ]
-                           }
-                           ,
-                           {
-                             "boundingVolume":
-                                 {
-                                     "region": [
-                                         0.2748893571891069,
-                                         0.7068583470577035,
-                                         0.8639379797371931,
-                                         1.2173671532660448,
-                                         0,
-                                         5600000.0
-                                     ]
-                                   },
-                             "refine": "REPLACE",
-                             "geometricError": 0.3125,
-                             "content":{"uri":"../4/L4X9Y6.glb"},
-                             "children": [
-
-                             ]
-                           }
                      ]
              }
        ],
