@@ -2,23 +2,40 @@
    "asset": {
        "version": "1.0"
    },
-   "geometricError": 1.6666666666666667,
+   "geometricError": 1e+100,
    "root": {
        "refine": "REPLACE",
-       "geometricError": 1.6666666666666667,
-       "content":{"uri":"L3X2Y2.glb"},
+       "geometricError": 1e+100,
        "boundingVolume":
        {
-           "region": [
-               -1.5707963267948966,
-               0.0,
-               -0.7853981633974483,
-               0.7853981633974483,
-               0,
-               250000.0
-           ]
+         "region": [
+             -3.141592653589793,
+             -1.5707963267948965,
+             3.141592653589793,
+             1.5707963267948965,
+              0,
+             1.2E7
+         ]
        },
        "children": [
+             {
+                 "boundingVolume":
+                 {
+                 "region": [
+                     -1.6493361431346414,
+                     -0.07853981633974483,
+                     -0.7068583470577035,
+                      0.8639379797371931,
+                      0,
+                      7200000.0
+                 ]
+                 },
+                 "geometricError": 1.6666666666666667,
+                 "refine": "REPLACE",
+                 "content":{"uri":"L3X2Y2.glb"},
+                    "children": [
+                     ]
+             }
        ],
         "extensionsUsed":["3DTILES_content_gltf"],
         "extensionsRequired":["3DTILES_content_gltf"]

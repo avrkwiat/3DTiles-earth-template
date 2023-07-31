@@ -2,95 +2,179 @@
    "asset": {
        "version": "1.0"
    },
-   "geometricError": 5.0,
+   "geometricError": 1e+100,
    "root": {
        "refine": "REPLACE",
-       "geometricError": 5.0,
-       "content":{"uri":"L1X0Y0.glb"},
+       "geometricError": 1e+100,
        "boundingVolume":
        {
-           "region": [
-               -3.141592653589793,
-               -1.5707963267948966,
-               0.0,
-               1.5707963267948966,
-               0,
-               1000000.0
-           ]
+         "region": [
+             -3.141592653589793,
+             -1.5707963267948965,
+             3.141592653589793,
+             1.5707963267948965,
+              0,
+             1.2E7
+         ]
        },
        "children": [
-           {
-               "boundingVolume":
-               {
-                   "region": [
-                       -3.141592653589793,
-                       -1.5707963267948966,
-                       -1.5707963267948966,
-                       0.0,
-                       0,
-                       500000.0
-                   ]
-               },
-               "refine": "REPLACE",
-               "geometricError": 1.25,
-               "content":{"uri":"../2/L2X0Y0.glb"},
-               "children":
-                 [   {
-                         "boundingVolume":{
-                         "box":[0,0,0,7972671.25,0,0,0,7972671.25,0,0,0,7945940.3928064629]},
-                         "geometricError":1e+100,
-                         "content":{"uri":"../2/L2X0Y0.json"}
-                     }
-			 ]
-           }
-,           {
-               "boundingVolume":
-               {
-                   "region": [
-                       -3.141592653589793,
-                       0.0,
-                       -1.5707963267948966,
-                       1.5707963267948966,
-                       0,
-                       500000.0
-                   ]
-               },
-               "refine": "REPLACE",
-               "geometricError": 1.25,
-               "content":{"uri":"../2/L2X0Y1.json"}
-           }
-,           {
-               "boundingVolume":
-               {
-                   "region": [
-                       -1.5707963267948966,
-                       -1.5707963267948966,
-                       0.0,
-                       0.0,
-                       0,
-                       500000.0
-                   ]
-               },
-               "refine": "REPLACE",
-               "geometricError": 1.25,
-               "content":{"uri":"../2/L2X1Y0.json"}
-           }
-,           {
-               "boundingVolume":
-               {
-                   "region": [
-                       -1.5707963267948966,
-                       0.0,
-                       0.0,
-                       1.5707963267948966,
-                       0,
-                       500000.0
-                   ]
-               },
-               "refine": "REPLACE",
-               "geometricError": 1.25,
-               "content":{"uri":"../2/L2X1Y1.json"}
-           }
+             {
+                 "boundingVolume":
+                 {
+                 "region": [
+                     -3.141592653589793,
+                     -1.5707963267948966,
+                     0.3141592653589793,
+                      1.5707963267948966,
+                      0,
+                      1.04E7
+                 ]
+                 },
+                 "geometricError": 5.0,
+                 "refine": "REPLACE",
+                 "content":{"uri":"L1X0Y0.glb"},
+                    "children": [
+                           {
+                             "boundingVolume":
+                                 {
+                                     "region": [
+                                         -3.141592653589793,
+                                         -1.5707963267948966,
+                                         -1.0995574287564276,
+                                         0.15707963267948966,
+                                         0,
+                                         8800000.0
+                                     ]
+                                   },
+                             "refine": "REPLACE",
+                             "geometricError": 1.25,
+                             "content":{"uri":"../2/L2X0Y0.glb"},
+                             "children": [
+                                 {
+                                     "boundingVolume":
+                                     {
+                                         "region": [
+                                             -3.141592653589793,
+                                             -1.5707963267948965,
+                                             1.5707963267948965,
+                                             1.5707963267948965,
+                                             0,
+                                             1.2E7
+                                         ]
+                                     },
+                                     "refine": "REPLACE",
+                                     "geometricError": 1.25,
+                                     "content":{"uri":"../2/L2X0Y0.json"}
+                                 }
+                             ]
+                           }
+                           ,
+                           {
+                             "boundingVolume":
+                                 {
+                                     "region": [
+                                         -3.141592653589793,
+                                         -0.15707963267948966,
+                                         -1.0995574287564276,
+                                         1.5707963267948966,
+                                         0,
+                                         8800000.0
+                                     ]
+                                   },
+                             "refine": "REPLACE",
+                             "geometricError": 1.25,
+                             "content":{"uri":"../2/L2X0Y1.glb"},
+                             "children": [
+                                 {
+                                     "boundingVolume":
+                                     {
+                                         "region": [
+                                             -3.141592653589793,
+                                             -1.5707963267948965,
+                                             1.5707963267948965,
+                                             1.5707963267948965,
+                                             0,
+                                             1.2E7
+                                         ]
+                                     },
+                                     "refine": "REPLACE",
+                                     "geometricError": 1.25,
+                                     "content":{"uri":"../2/L2X0Y1.json"}
+                                 }
+                             ]
+                           }
+                           ,
+                           {
+                             "boundingVolume":
+                                 {
+                                     "region": [
+                                         -1.7278759594743862,
+                                         -1.5707963267948966,
+                                         0.3141592653589793,
+                                         0.15707963267948966,
+                                         0,
+                                         8800000.0
+                                     ]
+                                   },
+                             "refine": "REPLACE",
+                             "geometricError": 1.25,
+                             "content":{"uri":"../2/L2X1Y0.glb"},
+                             "children": [
+                                 {
+                                     "boundingVolume":
+                                     {
+                                         "region": [
+                                             -3.141592653589793,
+                                             -1.5707963267948965,
+                                             1.5707963267948965,
+                                             1.5707963267948965,
+                                             0,
+                                             1.2E7
+                                         ]
+                                     },
+                                     "refine": "REPLACE",
+                                     "geometricError": 1.25,
+                                     "content":{"uri":"../2/L2X1Y0.json"}
+                                 }
+                             ]
+                           }
+                           ,
+                           {
+                             "boundingVolume":
+                                 {
+                                     "region": [
+                                         -1.7278759594743862,
+                                         -0.15707963267948966,
+                                         0.3141592653589793,
+                                         1.5707963267948966,
+                                         0,
+                                         8800000.0
+                                     ]
+                                   },
+                             "refine": "REPLACE",
+                             "geometricError": 1.25,
+                             "content":{"uri":"../2/L2X1Y1.glb"},
+                             "children": [
+                                 {
+                                     "boundingVolume":
+                                     {
+                                         "region": [
+                                             -3.141592653589793,
+                                             -1.5707963267948965,
+                                             1.5707963267948965,
+                                             1.5707963267948965,
+                                             0,
+                                             1.2E7
+                                         ]
+                                     },
+                                     "refine": "REPLACE",
+                                     "geometricError": 1.25,
+                                     "content":{"uri":"../2/L2X1Y1.json"}
+                                 }
+                             ]
+                           }
+                     ]
+             }
        ],
         "extensionsUsed":["3DTILES_content_gltf"],
         "extensionsRequired":["3DTILES_content_gltf"]
