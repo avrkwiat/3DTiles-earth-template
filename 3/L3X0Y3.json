@@ -1,41 +1,91 @@
 {
    "asset": {
-       "version": "1.0"
+       "version": "1.0",
+       "gltfUpAxis": "Y" 
    },
-   "geometricError": 1e+100,
    "root": {
-       "refine": "REPLACE",
-       "geometricError": 1e+100,
        "boundingVolume":
-       {
-         "region": [
-             -3.141592653589793,
-             -1.5707963267948965,
-             3.141592653589793,
-             1.5707963267948965,
-              0,
-             1.2E7
-         ]
-       },
-       "children": [
-             {
-                 "boundingVolume":
-                 {
+          {
                  "region": [
                      -3.141592653589793,
                      0.7068583470577035,
                      -2.2776546738526,
-                      1.5707963267948966,
-                      0,
-                      7200000.0
+                     1.5707963267948966,
+                     0.0,
+                     300000.0
                  ]
-                 },
-                 "geometricError": 1.6666666666666667,
-                 "refine": "REPLACE",
-                 "content":{"uri":"L3X0Y3.glb"},
-                    "children": [
+          },
+       "geometricError": 62.5,
+       "refine": "REPLACE",
+       "content":{"uri":"L3X0Y3.gltf"},
+       "children": [
+            {
+                 "boundingVolume":
+                 {
+                     "region": [
+                         -3.141592653589793,
+                         0.7068583470577035,
+                         -2.6310838473814515,
+                         1.2173671532660448,
+                         0.0,
+                         200000.0
                      ]
-             }
+                 },
+                 "refine": "REPLACE",
+                 "geometricError": 31.25,
+                 "content":{"uri":"../4/L4X0Y6.json"}
+            }
+                           ,
+            {
+                 "boundingVolume":
+                 {
+                     "region": [
+                         -3.141592653589793,
+                         1.0602875205865552,
+                         -2.6310838473814515,
+                         1.5707963267948966,
+                         0.0,
+                         200000.0
+                     ]
+                 },
+                 "refine": "REPLACE",
+                 "geometricError": 31.25,
+                 "content":{"uri":"../4/L4X0Y7.json"}
+            }
+                           ,
+            {
+                 "boundingVolume":
+                 {
+                     "region": [
+                         -2.788163480060941,
+                         0.7068583470577035,
+                         -2.2776546738526,
+                         1.2173671532660448,
+                         0.0,
+                         200000.0
+                     ]
+                 },
+                 "refine": "REPLACE",
+                 "geometricError": 31.25,
+                 "content":{"uri":"../4/L4X1Y6.json"}
+            }
+                           ,
+            {
+                 "boundingVolume":
+                 {
+                     "region": [
+                         -2.788163480060941,
+                         1.0602875205865552,
+                         -2.2776546738526,
+                         1.5707963267948966,
+                         0.0,
+                         200000.0
+                     ]
+                 },
+                 "refine": "REPLACE",
+                 "geometricError": 31.25,
+                 "content":{"uri":"../4/L4X1Y7.json"}
+            }
        ],
         "extensionsUsed":["3DTILES_content_gltf"],
         "extensionsRequired":["3DTILES_content_gltf"]

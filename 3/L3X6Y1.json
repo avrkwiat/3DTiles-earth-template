@@ -1,0 +1,93 @@
+{
+   "asset": {
+       "version": "1.0",
+       "gltfUpAxis": "Y" 
+   },
+   "root": {
+       "boundingVolume":
+          {
+                 "region": [
+                     1.4922565104551517,
+                     -0.8639379797371931,
+                     2.4347343065320897,
+                     0.07853981633974483,
+                     0.0,
+                     300000.0
+                 ]
+          },
+       "geometricError": 62.5,
+       "refine": "REPLACE",
+       "content":{"uri":"L3X6Y1.gltf"},
+       "children": [
+            {
+                 "boundingVolume":
+                 {
+                     "region": [
+                         1.4922565104551517,
+                         -0.8639379797371931,
+                         2.081305133003238,
+                         -0.2748893571891069,
+                         0.0,
+                         200000.0
+                     ]
+                 },
+                 "refine": "REPLACE",
+                 "geometricError": 31.25,
+                 "content":{"uri":"../4/L4X12Y2.json"}
+            }
+                           ,
+            {
+                 "boundingVolume":
+                 {
+                     "region": [
+                         1.4922565104551517,
+                         -0.5105088062083414,
+                         2.081305133003238,
+                         0.07853981633974483,
+                         0.0,
+                         200000.0
+                     ]
+                 },
+                 "refine": "REPLACE",
+                 "geometricError": 31.25,
+                 "content":{"uri":"../4/L4X12Y3.json"}
+            }
+                           ,
+            {
+                 "boundingVolume":
+                 {
+                     "region": [
+                         1.8456856839840035,
+                         -0.8639379797371931,
+                         2.4347343065320897,
+                         -0.2748893571891069,
+                         0.0,
+                         200000.0
+                     ]
+                 },
+                 "refine": "REPLACE",
+                 "geometricError": 31.25,
+                 "content":{"uri":"../4/L4X13Y2.json"}
+            }
+                           ,
+            {
+                 "boundingVolume":
+                 {
+                     "region": [
+                         1.8456856839840035,
+                         -0.5105088062083414,
+                         2.4347343065320897,
+                         0.07853981633974483,
+                         0.0,
+                         200000.0
+                     ]
+                 },
+                 "refine": "REPLACE",
+                 "geometricError": 31.25,
+                 "content":{"uri":"../4/L4X13Y3.json"}
+            }
+       ],
+        "extensionsUsed":["3DTILES_content_gltf"],
+        "extensionsRequired":["3DTILES_content_gltf"]
+   }
+}
